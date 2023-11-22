@@ -1,30 +1,144 @@
-We have a simple set of rules for anyone who want to submit a pr and contribute
+Prerequisites
+* Precalculus
+* Algebra I
 
-**PR RULES**
-* When submitting a pr, justify why you think the resource should be added. We don't want to bloat the roadmap too much
-* Make sure to join our [discord](https://discord.gg/kaxCNpQMKR) for discussions and suggestions 
- 
-**ROADMAP RULES**
- * Having 2 bullet on the same level are considered topics that come one after another
- * Having bullet points nested under another bullet point are considered subtopics of the bullet point above it
- * You can nest bullet points as deep as you want, but try to not go too deep
- * The descriptions should be added with a line ```-``` after its respective bullet point
- * Links should be added as ```[link name](link)``` as nested bullet points immediately under description 
-
-**EXAMPLES**
+Math for ML
 * Calculus
-    * Calculus I - calculus one encompasses bla bla bla some more description   
-      * [Course 1](link) 
-      * [Course 1](link) 
-      * Subnode 1 - Another description here
-        * [Subnode 1 link]()
-        * SubSubnode 1
-        * SubSubnode 2
-      * Subnode 2
-      * Subnode 3
-  * Calculus II
-  * Calculus III
-
-In this particular example, We have 3 main topics, calculus I, II and III. Calculus I has 3 subnodes and 2 links. The subnodes from calculus I should be followed in order, then you should get to Calculus II and III.
-
-### FEEL FREE TO PROPOSE IMPROVEMENTS TO THESE RULES TOO !!
+	-  Calculus I
+		- derivatives intuition
+		- understanding what integrals are
+		- derivatives rules
+		- chain rule
+		- implicit differentiation
+		- Derivatives
+			- Why derivatives in machine learning
+				- gradient descent
+				- Best line fit
+			- Real life applications of derivatives
+				- https://www.youtube.com/watch?v=HDntI7zfBNs
+			-  Approximating with local linearity
+				- https://www.khanacademy.org/math/calculus-1/cs1-applications-of-derivatives/cs1-approximation-with-local-linearity/v/local-linearization-intro
+			- L'hopital rule
+				- https://www.khanacademy.org/math/calculus-1/cs1-applications-of-derivatives/cs1-lhpitals-rule/v/introduction-to-l-hopital-s-rule
+			- Relative (local) extrema
+				- https://www.khanacademy.org/math/calculus-1/cs1-analyzing-functions/cs1-relative-local-extrema/v/relative-minima-maxima
+			- Concavity
+				- https://www.khanacademy.org/math/calculus-1/cs1-analyzing-functions/cs1-concavity-and-inflection-points-intro/v/concavity-concave-upwards-and-concave-downwards-intervals
+			- Optimization problems derivatives
+				- https://www.khanacademy.org/math/calculus-1/cs1-analyzing-functions/cs1-solving-optimization-problems/v/minimizing-sum-of-squares	
+		- Integrals
+			- The intuition behind integrals
+			- Intro to integral calculus
+			- Riemann sums
+			- Fundamental theorem of calculus
+			- Definite integrals
+			- Definite integrals problems 
+		- Differential equations basics
+	- Calculus II
+      - Integration techniques
+          - u substitution 
+          - trigonometric identities integration 
+          - trigonometric substitution
+          - integration by parts
+          - improper integrals
+      - Differential equations
+          - The intuition for differential equations
+          - Basics of differential equations - 
+          -  Understanding slope fields 
+          - Euler's method 
+          - Exercises with differential equations
+              - Separable differential equations
+              - Modeling population growth
+      - Applications of integrals
+          - Average value of a function - 
+          - Motion problems - 
+          - Non motion problems 
+          - Volumes of 3d shapes
+              - [Squares and triangles cross-sections](https://www.khanacademy.org/math/calculus-2/cs2-applications-of-integrals/cs2-volume-squares-and-rectangles-cross-sections/v/volume-with-cross-sections-intro)
+              - [Triangles and semicircles](https://www.khanacademy.org/math/calculus-2/cs2-applications-of-integrals/cs2-volume-triangles-and-semicircles-cross-sections/v/volume-solid-semicircle-cross-section)
+	- Parametric equations, polar coordinates, and vector-valued functions 
+		- Parametric equations
+		- Calculating arc length
+		- Vector valued functions
+		- Planar motion problems
+	- Series
+		- Convergent and divergent infinite series
+		- infinite geometric series
+		- n-th term test
+		- integral test
+		- Harmonic and p series
+		- Comparison test
+		- Ratio test
+		- Taylor and Maclaurin series
+		- Lagrange error bound
+		- Power series
+	-  Calculus III ( multivariable calculus ) 
+	    -  Prerequisites
+      	- Visualizing and understanding 3d graphs
+        - Slices of 3d graphs
+        - Parametric curves
+        - Parametric surfaces
+        - Vector fields
+        - Transformations
+        - Partial derivatives
+            - understanding partial derivatives
+            - visualizing partial derivatives
+            - gradient
+            - Multivariable chain rule
+            - Partial derivative of vector valued function
+        - Divergence - https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/divergence-grant-videos/v/divergence-intuition-part-1
+        - Curl 
+        - 3d curls
+        - Laplacian - https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/laplacian/v/laplacian-intuition
+        - Jacobian
+        - Minima and maxima in multivariable functions
+        - Constrained optimization
+        - Line integrals
+        - Line integrals in vector fields
+        - Double integrals
+        - Triple integrals 
+- How neural networks work - at this point ....
+	- [Neural networks explained by 3blue1brown](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) 
+- Probabilities
+	- Probability basics explained
+		- Addition of probabilities
+		- Compound probability
+		- Coin flipping probability
+		- Probability of unfair coin
+		- Probability of exactly 2 heads
+	- More on probabilities
+		- Generalizing with binomial coefficients
+		- Dependent probability 
+		- Permutations
+		- Combinations
+		- Conditional probability
+		- Birthday problem
+		- Random variables
+		- Binomial distribution
+		- Expected value
+			- Expected value of binomial distribution
+		- Poisson process
+		- Law of large numbers  
+- Statistics
+	- Basics of statistics
+		- The average
+		- Population and sample mean
+		- Variance
+		- Standard deviation
+		- Normal distribution
+		- Central limit theorem
+		- Standard error of the mean
+		- Bernoulli distribution
+		- Bayesian Statistics
+		- Margin of error
+		- Confidence intervals
+		- Hypothesis testing and p-values
+		- One-tailed and two-tailed tests
+		- Regression analysis
+		- z-score
+		- Correlation and covariance
+- Linear algebra
+- (Math for ml - Marc Peter Deisenroth)
+- Optimization theory
+- information theory
+- econometrics
