@@ -1,3 +1,5 @@
+## Math for ML/AI roadmap
+
 Prerequisites
 * Precalculus
 * Algebra I
