@@ -2,7 +2,7 @@ We have a simple set of rules for anyone who want to submit a pr and contribute
 
 **PR RULES**
 * When submitting a pr, justify why you think the resource should be added. We don't want to bloat the roadmap too much
-* 
+* Make sure to join our [discord](https://discord.gg/kaxCNpQMKR) for discussions and suggestions 
  
 **ROADMAP RULES**
  * Having 2 bullet on the same level are considered topics that come one after another
