@@ -1,31 +1,44 @@
 Prerequisites
+
 * Precalculus
 * Algebra I
 
 Math for ML
 * Calculus
-	-  Calculus I
-		- derivatives intuition
-		- understanding what integrals are
-		- derivatives rules
-		- chain rule
-		- implicit differentiation
+	-  Calculus I - Calculus I forms the foundation for understanding changes and motion in machine learning models. It introduces key concepts like limits, which help understand how functions behave as they approach specific points, and derivatives, which are essential for understanding rates of change. In machine learning, derivatives play a crucial role in optimization algorithms, like gradient descent, used for training models. This part of calculus also covers the basics of integration, providing a way to aggregate or sum up quantities, which is useful in areas like probability and data analysis. Understanding the fundamentals of Calculus I is vital for grasping more complex concepts in machine learning and for effectively implementing and improving ML algorithms. 
+		- [Calculus I khan academy](https://www.khanacademy.org/math/calculus-1)
+        - [calculus I MIT course](https://www.youtube.com/watch?v=0euyDNGEiZ4&list=PLO1y6V1SXjjNSSOZvV3PcFu4B1S8nfXBM)
+        - [The best calculus intuition on the internet](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+        - derivatives intuition -Derivatives are fundamental in machine learning for optimizing algorithms. They indicate how a function's output changes in response to variations in input, crucial for algorithms like gradient descent. By calculating derivatives, we can minimize a loss function, adjusting model parameters for better data fit. This process, especially in neural networks, involves backpropagation, which relies heavily on derivatives. Understanding derivatives is key for effective algorithm implementation and improvement in machine learning. 
+          - [Derivatives explained by 3blue1brown](https://www.youtube.com/watch?v=9vKqVkMQHKk&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+		- understanding what integrals are - Integrals are used in machine learning to aggregate or accumulate quantities, offering a way to sum up continuous data points or functions. This concept is important for calculating areas under curves, which in ML can relate to probabilities and distributions in statistics. Integrals also play a role in understanding the cumulative impact of small changes, crucial in algorithms that deal with continuous data. Mastery of integrals aids in grasping complex concepts in probability and data analysis within the machine learning field 
+          - [Integrals explained by 3blue1brown](https://www.youtube.com/watch?v=rfG8ce4nNh0&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
 		- Derivatives
 			- Why derivatives in machine learning
-				- gradient descent
-				- Best line fit
-			- Real life applications of derivatives
-				- https://www.youtube.com/watch?v=HDntI7zfBNs
-			-  Approximating with local linearity
-				- https://www.khanacademy.org/math/calculus-1/cs1-applications-of-derivatives/cs1-approximation-with-local-linearity/v/local-linearization-intro
-			- L'hopital rule
-				- https://www.khanacademy.org/math/calculus-1/cs1-applications-of-derivatives/cs1-lhpitals-rule/v/introduction-to-l-hopital-s-rule
-			- Relative (local) extrema
-				- https://www.khanacademy.org/math/calculus-1/cs1-analyzing-functions/cs1-relative-local-extrema/v/relative-minima-maxima
-			- Concavity
-				- https://www.khanacademy.org/math/calculus-1/cs1-analyzing-functions/cs1-concavity-and-inflection-points-intro/v/concavity-concave-upwards-and-concave-downwards-intervals
-			- Optimization problems derivatives
-				- https://www.khanacademy.org/math/calculus-1/cs1-analyzing-functions/cs1-solving-optimization-problems/v/minimizing-sum-of-squares	
+				- gradient descent - Derivatives are pivotal in gradient descent algorithms, which find the minimum of a function (often a loss function in ML models). By calculating the derivative, the algorithm determines the direction to adjust parameters to reduce the error. 
+                  - [Gradient descent 2d](https://www.youtube.com/watch?v=sDv4f4s2SB8)
+                  - [Gradient descent for neural networks](https://www.youtube.com/watch?v=IHZwWFHWa-w)
+				- Best line fit - In regression models, derivatives help in finding the best line that fits the given data. This involves minimizing the difference (error) between the predicted values and the actual values. 
+                  - [Best line fit explained](https://www.youtube.com/watch?v=PaFPbb66DxQ)
+			- [Real life applications of derivatives](https://www.youtube.com/watch?v=PaFPbb66DxQ)
+            - derivatives rules - There are certain basic rules about derivatives that you have to know. They result from the definition of a derivative. For example the derivative of a constant is 0.
+                - [Derivatives basics rules](https://www.khanacademy.org/math/calculus-1/cs1-derivatives-definition-and-basic-rules/cs1-derivative-rules-constant-sum-difference-and-constant-multiple/v/derivative-properties-and-polynomial-derivatives) 
+            - differentiation rules - There are certain rules you have to know when deriving functions. For example how you derive a product, division or addition of functions
+                - [Basic differentiation rules](https://www.youtube.com/watch?v=IvLpN1G1Ncg)
+            - chain rule - A technique for finding the derivative of composite functions. It is used in machine learning to calculate the derivative of a function composed of several functions, being critical to neural networks and backpropagation. 
+                - [Chain rule explained](https://www.youtube.com/watch?v=YG15m2VwSjA)
+			- Approximating with local linearity - Used in machine learning to approximate a function with a linear function, which is easier to work with. This is done by finding the tangent line to a point on the function, which is the derivative at that point. So in simpler words, approximating a function near a point
+				- [Khan academy chapters](https://www.khanacademy.org/math/calculus-1/cs1-applications-of-derivatives/cs1-approximation-with-local-linearity/v/local-linearization-intro)
+			- L'hopital rule - A method for evaluating limits of indeterminate forms, which are expressions that cannot be evaluated by substituting the limit value. It is used in machine learning to find the limit of a function, which is useful in optimization algorithms like gradient descent.
+				- [3blue1brown L'hopital rule](https://www.youtube.com/watch?v=kfF40MiS7zA)
+                - [Khan academy L'hopital rules](https://www.khanacademy.org/math/calculus-1/cs1-applications-of-derivatives/cs1-lhpitals-rule/v/introduction-to-l-hopital-s-rule)
+			- Relative (local) extrema - A point on a function where the function's value is either greater or less than the values of the surrounding points. It is used in machine learning to find the minimum or maximum of a function, which is important in optimization algorithms like gradient descent.
+				- [Khan academy section](https://www.khanacademy.org/math/calculus-1/cs1-analyzing-functions/cs1-relative-local-extrema/v/relative-minima-maxima)
+			- Concavity - A measure of the curvature of a function, which is used in machine learning to find the inflection points of a function. These points are important in optimization algorithms like gradient descent.
+				- [Khan academy explainers](https://www.khanacademy.org/math/calculus-1/cs1-analyzing-functions/cs1-concavity-and-inflection-points-intro/v/concavity-concave-upwards-and-concave-downwards-intervals)
+			- Optimization problems derivatives - Optimization problems are used in machine learning to find the minimum or maximum of a function, which is important in optimization algorithms like gradient descent.
+				- [Khan academy explainer section](https://www.khanacademy.org/math/calculus-1/cs1-analyzing-functions/cs1-solving-optimization-problems/v/minimizing-sum-of-squares)
+        - implicit differentiation
 		- Integrals
 			- The intuition behind integrals
 			- Intro to integral calculus
@@ -120,25 +133,88 @@ Math for ML
 		- Poisson process
 		- Law of large numbers  
 - Statistics
-	- Basics of statistics
-		- The average
-		- Population and sample mean
-		- Variance
-		- Standard deviation
-		- Normal distribution
-		- Central limit theorem
-		- Standard error of the mean
-		- Bernoulli distribution
-		- Bayesian Statistics
-		- Margin of error
-		- Confidence intervals
-		- Hypothesis testing and p-values
-		- One-tailed and two-tailed tests
-		- Regression analysis
-		- z-score
-		- Correlation and covariance
+    - The average
+    - Population and sample mean
+    - Variance
+    - Standard deviation
+    - Normal distribution
+    - Central limit theorem
+    - Standard error of the mean
+    - Bernoulli distribution
+    - Bayesian Statistics
+    - Bayesian inference
+    - Margin of error
+    - Confidence intervals
+    - Hypothesis testing and p-values
+    - One-tailed and two-tailed tests
+    - Regression analysis
+    - Advanced regression
+    - z-score
+    - Correlation and covariance
+    - sampling methods
 - Linear algebra
-- (Math for ml - Marc Peter Deisenroth)
-- Optimization theory
-- information theory
-- econometrics
+  - Essence of linear algebra
+  - Prerequisites recap
+    - Matrices
+    - Matrix multiplication
+    - Inverse matrices
+    - Solve system of equations
+  - Basics of linear algebra
+    - Vectors 
+    - Linear combination and span
+    - Linear dependence and independence
+    - Linear subspaces
+    - Basis of a subspace
+    - Unit vectors 
+    - Vector dot and cross products
+    - Cauchy-Schwarz inequality
+    - Vector triangle inequality
+    - Angle between vectors
+    - Matrices: Reduced row echelon form
+    - Matrix vector products
+    - Null space 
+    - Column space
+    - Dimension of a column space
+  - More linear algebra concepts
+    - Different understanding of functions
+    - Vector transformations
+    - Linear transformations 
+      - Image of a subset under a transformation
+      - Image of a transformation
+      - Preimage of a set
+      - Sums and scalar multiples of linear transformations
+      - Linear transformation examples
+    - Projections
+    - Matrix product 
+      - Matrix product associativity
+      - Matrix product distributivity
+    - Inverse of a function
+    - Finding inverse function
+    - Showing that inverse are linear
+    - Method for determining matrix inverses
+    - Determinants
+      - 3*3 determinant
+      - n*n determinant
+      - duplicate row determinant
+      - Transpose of a matrix
+      - Determinant of transpose
+    - Orthogonal complement 
+    - rank of a matrix and transpose
+    - dim of a matrix and orthogonal complement
+    - Change of basis
+    - The gram-schmidt process
+    - Eigen values and eigenvectors
+    - Diagonalization of a matrix
+    - Singular value decomposition
+    - Tensors and tensor operations
+- Optimization theory course
+  - [Course](https://www.youtube.com/watch?v=4_jiFQXPAsw&list=PLdkTDauaUnQpzuOCZyUUZc0lxf4-PXNR5)
+- information theory course
+  - [Course](https://www.youtube.com/watch?v=BCiZc0n6COY&list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6)
+- econometrics course
+  - [Course](https://www.youtube.com/watch?v=M_5SLG7sUa0&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU)
+- Beyond this roadmap 
+  - (Mathematics for machine learning - Marc Peter Deisenroth)
+  - AI roadmap
+  - Machine learning roadmap
+  - Deep learning roadmap
