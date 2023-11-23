@@ -1,3 +1,5 @@
+## Math for ML/AI roadmap
+
 Prerequisites
 
 * Precalculus
@@ -38,62 +40,74 @@ Math for ML
 				- [Khan academy explainers](https://www.khanacademy.org/math/calculus-1/cs1-analyzing-functions/cs1-concavity-and-inflection-points-intro/v/concavity-concave-upwards-and-concave-downwards-intervals)
 			- Optimization problems derivatives - Optimization problems are used in machine learning to find the minimum or maximum of a function, which is important in optimization algorithms like gradient descent.
 				- [Khan academy explainer section](https://www.khanacademy.org/math/calculus-1/cs1-analyzing-functions/cs1-solving-optimization-problems/v/minimizing-sum-of-squares)
-        - implicit differentiation
-		- Integrals
-			- The intuition behind integrals
-			- Intro to integral calculus
+        - Implicit differentiation -Implicit differentiation is a method used when variables in a function are intermixed and cannot be separated easily. It involves differentiating both sides of an equation with respect to an independent variable. This technique is useful in machine learning for handling complex relationships between variables, especially when standard differentiation rules are not directly applicable. It helps in understanding the effect of changes in one variable on another. 
+          - [Khan academy implicit differentiation](https://www.khanacademy.org/math/calculus-1/cs1-derivatives-chain-rule-and-other-advanced-topics/cs1-implicit-differentiation/v/implicit-differentiation-1) 
+          - [Professor dave explains](https://www.youtube.com/watch?v=M0SMSWM2oZA)
+		- Integrals - Integrals in mathematics, particularly in the context of machine learning, are used for summing or accumulating quantities over an interval. They are essential for calculating areas under curves, which can represent probabilities and distributions in statistics, a key part of data analysis in ML. Integrals also aid in understanding the cumulative effects of continuous changes, crucial for handling continuous data and for algorithms involving probabilities and continuous optimization. Understanding integrals is vital for effective data analysis and model formulation in machine learning. 
+			- [Integrals and fundamental theorem of calculus](https://www.youtube.com/watch?v=rfG8ce4nNh0)
 			- Riemann sums
-			- Fundamental theorem of calculus
-			- Definite integrals
-			- Definite integrals problems 
-		- Differential equations basics
-	- Calculus II
-      - Integration techniques
-          - u substitution 
-          - trigonometric identities integration 
-          - trigonometric substitution
-          - integration by parts
-          - improper integrals
-      - Differential equations
-          - The intuition for differential equations
-          - Basics of differential equations - 
-          -  Understanding slope fields 
-          - Euler's method 
-          - Exercises with differential equations
-              - Separable differential equations
-              - Modeling population growth
+              - [Riemann sums khan academy section](https://www.khanacademy.org/math/calculus-1/cs1-integrals/cs1-approximation-with-riemann-sums/v/simple-riemann-approximation-using-rectangles)
+              - [Riemann sums explained](https://www.youtube.com/watch?v=AkUa9Fkz2rw)
+            - Definite integrals
+              - [Khan academy definite integrals](https://www.khanacademy.org/math/calculus-1/cs1-integrals/cs1-defining-integrals-with-riemann-sums/v/riemann-sums-and-integrals) 
+              - [Definite integrals explained](https://www.youtube.com/watch?v=b0RJkIBhfEM) 
+		- Differential equations basics -Differential equations are equations that involve an unknown function and its derivatives. In the basics of differential equations, you learn how to solve equations that describe the rate of change of a quantity. These equations are fundamental in modeling various phenomena where the rate of change of one variable is directly dependent on other variables 
+          - [Differential equations video](https://www.youtube.com/watch?v=6o7b9yyhH7k) 
+	- Calculus II -Calculus II builds upon the foundations of Calculus I, focusing on advanced integration techniques, series, and sequences. It includes topics like integration by parts, partial fractions, and convergence of series. In machine learning, these concepts are essential for complex models, especially in probabilistic methods and continuous optimization. This knowledge is crucial for understanding and implementing more sophisticated ML algorithms. 
+      - [Calculus II khan academy](https://www.khanacademy.org/math/calculus-2) 
+      - [Calculus II playlist](https://www.youtube.com/watch?v=i4c8n4S-Sp0&list=PLHXZ9OQGMqxc4ySKTIW19TLrT91Ik9M4n)
+      - Integration techniques - Integration techniques involve various methods to solve complex integrals. Key techniques include integration by parts, substitution, and partial fractions. These methods are useful in machine learning for solving problems related to areas under curves, probabilities, and in algorithms that require integration of functions. Understanding these techniques is important for dealing with continuous data and for certain optimization problems in ML. 
+          - [Integration techniques playlist](https://www.youtube.com/watch?v=2N6A4ed8s58&list=PLWYuCHEwjSqI5HAhTqpEoTGhkiy6DTGoN) 
+          - [Khan academy integration techniques](https://www.khanacademy.org/math/calculus-2/cs2-integration-techniques)
+          - u substitution - A method for solving integrals by substituting a function with a variable u. It is used in machine learning to solve complex integrals, which are important in algorithms that deal with continuous data. 
+              - [u substitution explained](https://www.youtube.com/watch?v=sci1pls4Lc8) 
+              - [The idea behind u substitution](https://www.youtube.com/watch?v=3eWxzBbsS9o)
+          - [trigonometric identities integration](https://www.youtube.com/watch?v=3pXALn2ovIE&t=0s)  
+          - [alternative khan academy](https://www.khanacademy.org/math/calculus-2/cs2-integration-techniques/cs2-integrating-using-trigonometric-identities/v/using-trig-identity-to-use-u-substitution)
+          - [trigonometric substitution](https://www.youtube.com/watch?v=ocgjfF2AboA)
+          - [integration by parts](https://www.youtube.com/watch?v=zNU8iK8sGD0)
+          - [improper integrals](https://www.youtube.com/watch?v=ND9cEdfCFr0)
+      - Differential equations - Differential equations involve relationships between functions and their derivatives, expressing how a quantity changes over time or space. They are crucial in modeling dynamic systems, where the rate of change is key. In machine learning, differential equations are used for time-series analysis, dynamic modeling, and in advanced neural network architectures. Understanding these equations is essential for applying ML to real-world problems that involve temporal or spatial dynamics. 
+        - [Differential equations Khan academy](https://www.khanacademy.org/math/calculus-2/cs2-differential-equations)
+        - [Differential equations 3blue1Brown](https://www.youtube.com/watch?v=p_di4Zn4wz4&list=PLZHQObOWTQDNPOjrT6KVlfJuKtYTftqH6)
       - Applications of integrals
-          - Average value of a function - 
-          - Motion problems - 
-          - Non motion problems 
-          - Volumes of 3d shapes
-              - [Squares and triangles cross-sections](https://www.khanacademy.org/math/calculus-2/cs2-applications-of-integrals/cs2-volume-squares-and-rectangles-cross-sections/v/volume-with-cross-sections-intro)
-              - [Triangles and semicircles](https://www.khanacademy.org/math/calculus-2/cs2-applications-of-integrals/cs2-volume-triangles-and-semicircles-cross-sections/v/volume-solid-semicircle-cross-section)
-	- Parametric equations, polar coordinates, and vector-valued functions 
-		- Parametric equations
-		- Calculating arc length
-		- Vector valued functions
-		- Planar motion problems
-	- Series
-		- Convergent and divergent infinite series
-		- infinite geometric series
-		- n-th term test
-		- integral test
-		- Harmonic and p series
-		- Comparison test
-		- Ratio test
-		- Taylor and Maclaurin series
-		- Lagrange error bound
-		- Power series
-	-  Calculus III ( multivariable calculus ) 
-	    -  Prerequisites
-      	- Visualizing and understanding 3d graphs
-        - Slices of 3d graphs
-        - Parametric curves
-        - Parametric surfaces
-        - Vector fields
-        - Transformations
-        - Partial derivatives
+          - [Motion problems](https://www.khanacademy.org/math/calculus-2/cs2-applications-of-integrals/cs2-straight-line-motion-3/v/motion-problems-with-integrals)
+          - [Non motion problems](https://www.khanacademy.org/math/calculus-2/cs2-applications-of-integrals/cs2-non-motion-applications-of-integrals/v/area-under-rate-net-change)
+          - [Squares and triangles cross-sections](https://www.khanacademy.org/math/calculus-2/cs2-applications-of-integrals/cs2-volume-squares-and-rectangles-cross-sections/v/volume-with-cross-sections-intro)
+          - [Triangles and semicircles](https://www.khanacademy.org/math/calculus-2/cs2-applications-of-integrals/cs2-volume-triangles-and-semicircles-cross-sections/v/volume-solid-semicircle-cross-section)
+      - More on equations and coordinates 
+          - Polar coordinates -Polar coordinates represent points in a plane using a radius and an angle, offering an alternative to the traditional Cartesian coordinate system. In machine learning, polar coordinates can be useful for data representation and feature engineering, particularly in problems where the data's orientation and distance from a central point are important. Understanding polar coordinates can aid in visualizing and analyzing data that naturally fits into circular or spiral patterns.  
+            - [Polar coordinates explained](https://www.youtube.com/watch?v=jwLUapqnwkk)
+          - [Parametric equations](https://www.youtube.com/watch?v=QaN_3TytT_U) 
+          - [Calculating arc length](https://www.youtube.com/watch?v=PK7HZiFG_VI)
+          - [Vector valued functions](https://www.youtube.com/watch?v=7fYDCUIvZnM)
+          - [Planar motion problems](https://www.khanacademy.org/math/calculus-2/cs2-parametric-equations-polar-coordinates-and-vector-valued-functions/cs2-planar-motion/v/planar-motion-example-acceleration-vector)
+	- Series -Series in mathematics refer to the sum of a sequence of numbers. In machine learning, series are important for understanding algorithms that involve summation over time or across data points, such as in time-series analysis or when dealing with sequential data. Grasping the concept of series, including convergence and divergence, is key for implementing and analyzing algorithms that aggregate information over sequences. 
+		- [Khan academy module](https://www.khanacademy.org/math/calculus-2/cs2-series)
+        - Convergent and divergent infinite series - 
+          - [Convergent and divergent series](https://www.youtube.com/watch?v=L-JqHo4-W4k)
+          - [Convergent and divergent series](https://www.khanacademy.org/math/calculus-2/cs2-series/cs2-convergent-and-divergent-infinite-series/v/convergent-and-divergent-sequences)
+		- Infinite geometric series - Convergent and divergent infinite series refer to the behavior of series as the number of terms approaches infinity. A convergent series approaches a finite limit, while a divergent series does not settle to a finite value. In machine learning, understanding the nature of these series is important for algorithms that involve iterative processes or summations over large datasets. Knowing whether a series converges or diverges can impact the stability and efficiency of these algorithms. 
+          - [Sum of infinite geometric series](https://www.youtube.com/watch?v=jxRqRLMliPc)
+		- [n-th term test](https://www.youtube.com/watch?v=gLzrFgR_qaM)
+		- [integral test](https://www.youtube.com/watch?v=f9SJz4-UaQQ)
+		- [P series](https://www.youtube.com/watch?v=x621rtIwb_4)
+		- [Direct comparison test](https://www.youtube.com/watch?v=oZtAgihok5s)
+        - [Limit comparison test](https://www.youtube.com/watch?v=LBxYQ0TJxYM)
+		- [Ratio test](https://www.youtube.com/watch?v=kkfILYpkJS8)
+		- [Taylor and Maclaurin series](https://www.youtube.com/watch?v=3d6DsjIBzJ4)
+		- [Lagrange error bound](https://www.khanacademy.org/math/calculus-2/cs2-series/cs2-lagrange-error-bound/v/error-or-remainder-of-a-taylor-polynomial-approximation)
+		- [Power series](https://www.youtube.com/watch?v=OxVBT83x8oc)
+	-  Calculus III ( multivariable calculus ) - Multivariable calculus extends the concepts of single-variable calculus to functions of several variables. It includes topics like partial derivatives, multiple integrals, and vector calculus. In machine learning, this area is crucial for dealing with high-dimensional data and for understanding how changes in multiple inputs simultaneously affect an output. Mastery of multivariable calculus is essential for advanced machine learning techniques such as optimization in high-dimensional spaces and modeling complex, multi-faceted systems.   
+        - [Khan academy modules](https://www.khanacademy.org/math/multivariable-calculus)
+      	- [Visualizing 3d graphs](https://www.youtube.com/watch?v=acdX4YamDtU)
+        - [Parametric curves](https://www.youtube.com/watch?v=bb4bSCjlFAw)
+        - [Parametric surfaces](https://www.youtube.com/watch?v=345SnWfahhY)
+        - Vector fields - Vector fields represent the distribution of vectors in a multi-dimensional space, where each vector indicates a direction and magnitude at a point in that space. In machine learning, vector fields can be used to visualize and understand the behavior of gradients in optimization problems, like visualizing the direction of steepest descent in a loss landscape. They are also important in understanding dynamical systems and fluid dynamics models that are applicable in certain AI applications. 
+          - [Vector fields explained](https://www.youtube.com/watch?v=2qxxd68fZng)
+          - [Vector fields 3blue1brown](https://www.youtube.com/watch?v=rB83DpBJQsE)
+        - [Transformations](https://www.youtube.com/watch?v=roRR6A3TozM)
+        - Partial derivatives - Partial derivatives are used in multivariable calculus to measure how a function changes as one of its variables changes, holding the others constant. In machine learning, partial derivatives are crucial for gradient calculations in multivariate optimization problems, such as those encountered in training neural networks. They help in understanding the sensitivity of a function's output to changes in each input variable, which is key for fine-tuning model parameters.  
             - understanding partial derivatives
             - visualizing partial derivatives
             - gradient
@@ -218,3 +232,7 @@ Math for ML
   - AI roadmap
   - Machine learning roadmap
   - Deep learning roadmap
+- (Math for ml - Marc Peter Deisenroth)
+- Optimization theory
+- information theory
+- econometrics
