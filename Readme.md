@@ -158,92 +158,114 @@ Math for ML
         - [Types of distributions](https://www.youtube.com/watch?v=CfZa1daLjwo&list=PLaFfQroTgZnzbfK-Rie19FdV6diehETQy)
 		- [Law of large numbers](https://www.youtube.com/watch?v=VpuN8vCQ--M)  
 - Statistics
-    - The average
-    - Population and sample mean
-    - Variance
-    - Standard deviation
-    - Normal distribution
-    - Central limit theorem
-    - Standard error of the mean
-    - Bernoulli distribution
-    - Bayesian Statistics
-    - Bayesian inference
-    - Margin of error
-    - Confidence intervals
-    - Hypothesis testing and p-values
-    - One-tailed and two-tailed tests
-    - Regression analysis
-    - Advanced regression
-    - z-score
-    - Correlation and covariance
-    - sampling methods
-- Linear algebra
-  - Essence of linear algebra
+    - [Statistics playlist](https://www.youtube.com/watch?v=uhxtUt_-GyM&list=PL1328115D3D8A2566) 
+    - [Probability and statistics course](https://www.khanacademy.org/math/statistics-probability)
+    - Median, mode and mean(average) - These are the 3 basic ways to calculate the properties of a set of numbers. The mean is the most common one, but it is not always the best one. The median is the middle number of a set of numbers. The mode is the number that appears the most in a set of numbers. 
+        - [Mean, median and mode](https://www.youtube.com/watch?v=B1HEzNTGeZ4)
+        - [Finding mean median and mode](https://www.youtube.com/watch?v=k3aKKasOmIw)
+        - [Weighted average](https://www.youtube.com/watch?v=LdrBNhWw9AM)
+    - Population and sample mean - The population mean is the average of all values in a population, while the sample mean is the average of values in a sample from that population. The sample mean is used as an estimate of the population mean 
+      - [Population and sample mean](https://www.youtube.com/watch?v=cmtBUWCC-6A)
+      - [Another explanation](https://www.youtube.com/watch?v=hsPCte_PcVA)
+    - Variance -Variance measures the spread of data points around the mean, indicating how much the data varies. It's calculated as the average of the squared differences from the mean.  
+      - [Variance explained](https://www.youtube.com/watch?v=x0rmUXWtSS8)
+      - [How to calculate average](https://www.youtube.com/watch?v=deIQeQzPK08)
+    - Standard deviation - Standard deviation is the square root of variance and provides a measure of the spread of data points around the mean in the same units as the data. 
+      - [Standard deviation explained](https://www.youtube.com/watch?v=HvDqbzu0i0E)
+      - [How to calculate standard deviation](https://www.youtube.com/watch?v=IaTFpp-uzp0)
+    - Normal distribution - A normal distribution, also known as a Gaussian distribution, is a symmetric, bell-shaped distribution where most observations cluster around the central peak and the probabilities for values further away from the mean taper off equally in both directions. 
+      - [Normal distribution clearly explained](https://www.youtube.com/watch?v=rzFX5NWojp0)
+      - [Normal distribution and probability problems](https://www.youtube.com/watch?v=gHBL5Zau3NE)
+    - Central limit theorem -This theorem states that the distribution of sample means approximates a normal distribution as the sample size becomes large, regardless of the shape of the population distribution.  
+      - [3blue1brown central limit theorem](https://www.youtube.com/watch?v=zeJD6dqJ5lo)
+    - Standard error of the mean -The standard error of the mean measures the variability or standard deviation of the sample mean estimate of a population mean. It decreases as the sample size increases. 
+      - [Standard error clearly explained](https://www.youtube.com/watch?v=XNgt7F6FqDU)
+      - [Standard error of the mean](https://www.youtube.com/watch?v=UuHqq09nTAk)
+      - [Alternative](https://www.youtube.com/watch?v=J1twbrHel3o)
+    - Bayesian statistics -Bayesian statistics involves using Bayes' theorem to update the probability of a hypothesis as more evidence or information becomes available. 
+      - [Bayesian statistics Course](https://www.youtube.com/watch?v=U1HbB0ATZ_A&list=PLFDbGp5YzjqXQ4oE4w9GVWdiokWB9gEpm) 
+      - Bayes theorem - Bayes' Theorem is a fundamental concept in probability theory. It describes the probability of an event, based on prior knowledge of conditions that might be related to the event. Formally, it calculates the conditional probability of an event A given another event B, based on the inverse probability of B given A and the individual probabilities of A and B. This theorem is widely used in various fields for making inferences and updating probabilities as new evidence is obtained. It's a cornerstone in Bayesian statistics, allowing for a mathematical framework to update beliefs based on new data. 
+        - [Essence of probability 3blue1brown - bayes theorem](https://www.youtube.com/watch?v=HZGCoVF3YvM&list=PLiAulSm0XXgvCGe63mrAkda9UQ9478YQv) 
+        - [Bayes theorem explained](https://www.youtube.com/watch?v=9wCnvr7Xw4E)
+      - [Bayesian trap](https://www.youtube.com/watch?v=R13BD8qKeTg)
+    - [Margin of error and confidence intervals](https://www.youtube.com/watch?v=hlM7zdf7zwU)
+    - Hypothesis testing and p-values - In hypothesis testing, the p-value is a measure used to assess the strength of the evidence against the null hypothesis. It represents the probability of observing a test statistic as extreme as, or more extreme than, the observed value under the assumption that the null hypothesis is true. A low p-value (typically less than 0.05) indicates that the observed data are unlikely under the null hypothesis and leads to the rejection of the null hypothesis, suggesting that the alternative hypothesis may be true. The p-value is a crucial tool in statistical significance testing, helping to determine whether the results of a study or experiment are likely due to chance or to some actual effect. 
+      - [Hypothesis testing and p-values](https://www.youtube.com/watch?v=-FtlH4svqx4)
+      - [P-values and hypothesis testing](https://www.youtube.com/watch?v=8Aw45HN5lnA)
+    - [One-tailed and two-tailed tests](https://www.youtube.com/watch?v=XHPIEp-3yC0)
+    - Regression - Regression is a statistical method used to examine the relationship between two or more variables. Essentially, it helps understand how the typical value of the dependent variable changes when any one of the independent variables is varied. In its simplest form, linear regression, it's like fitting a straight line through data points in a way that best expresses the relationship between those points. It's widely used for prediction and forecasting, where it helps in determining how changes in one variable can affect another. 
+      - [Regression crash course](https://www.youtube.com/watch?v=WWqE7YHR4Jc)
+      - [Linear regression Using Least square method](https://www.youtube.com/watch?v=P8hT5nDai6A)
+      - [Regression analysis](https://www.youtube.com/watch?v=FLJ0yYetywE)
+    - z-score - A z-score is a measure of how many standard deviations below or above the population mean a raw score is. It's calculated as the difference between a raw score and the population mean, divided by the population standard deviation. 
+      - [Z-score and standardization](https://www.youtube.com/watch?v=2tuBREK_mgE)
+      - [Z-score introduction](https://www.youtube.com/watch?v=5S-Zfa-vOXs)
+    - [Correlation](https://www.youtube.com/watch?v=xZ_z8KWkhXE) 
+    - [Covariance](https://www.youtube.com/watch?v=qtaqvPAeEJY) 
+    - [Sampling methods](https://www.youtube.com/watch?v=fSmedyVv-Us)
+- Linear algebra -Linear algebra is a branch of mathematics that deals with vectors, vector spaces, and linear mappings between these spaces. It includes the study of lines, planes, and subspaces, and is fundamental for many areas of mathematics. In linear algebra, the concepts of vector operations, matrices, determinants, eigenvalues, and eigenvectors are key. These concepts are essential for solving systems of linear equations, which is a common problem in various applied fields including computer science, engineering, physics, and economics. Linear algebra provides the language and framework for many modern areas of applied mathematics, including machine learning and data analysis, where it's used to model and solve complex problems. 
+  - [Essence of linear algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+  - [Linear algebra course khan academy](https://www.khanacademy.org/math/linear-algebra)
   - Prerequisites recap
-    - Matrices
-    - Matrix multiplication
-    - Inverse matrices
-    - Solve system of equations
+    - [Matrices](https://www.youtube.com/watch?v=yRwQ7A6jVLk)
+    - [Matrix multiplication](https://www.youtube.com/watch?v=OMA2Mwo0aZg)
+    - [Solve system of equations](https://www.youtube.com/watch?v=AUqeb9Z3y3k)
   - Basics of linear algebra
-    - Vectors 
+    - Vectors - Vectors are mathematical objects representing quantities that have both magnitude and direction. They can be thought of as arrows pointing from one point to another in space. Vectors are fundamental in physics, engineering, and mathematics, particularly in fields like mechanics and vector calculus. In the context of linear algebra, vectors are often represented as an array of numbers which specify their coordinates in a space, and they are key to understanding concepts like vector spaces, linear transformations, and matrix operations. Vectors are also crucial in machine learning for representing data and model parameters. 
+      - [3blue1brown vectors](https://www.youtube.com/watch?v=fNk_zzaMoSs)
+      - [Vectors module khan academy](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)
     - Linear combination and span
+      - [3blue1brown linear combinations and span](https://www.youtube.com/watch?v=k7RM-ot2NWY)
+      - [Linear combinations and span explained](https://www.youtube.com/watch?v=Qm_OS-8COwU)
     - Linear dependence and independence
-    - Linear subspaces
-    - Basis of a subspace
-    - Unit vectors 
-    - Vector dot and cross products
-    - Cauchy-Schwarz inequality
-    - Vector triangle inequality
-    - Angle between vectors
-    - Matrices: Reduced row echelon form
-    - Matrix vector products
-    - Null space 
-    - Column space
-    - Dimension of a column space
+      - [Linear independence](https://www.youtube.com/watch?v=9kDpbZCK62Y)
+      - [Intro to linear independence](https://www.youtube.com/watch?v=CrV1xCWdY-g)
+    - Linear subspaces - Linear subspaces, also known simply as subspaces, are subsets of a vector space that are themselves vector spaces. They are defined by a few key properties: they contain the zero vector, they are closed under vector addition (meaning the sum of any two vectors in the subspace is also in the subspace), and they are closed under scalar multiplication (any scalar multiplied by a vector in the subspace results in another vector in the subspace). Subspaces are fundamental in linear algebra and are used to understand more complex structures within vector spaces, like the column space and null space of a matrix. 
+      - [Linear subspaces](https://www.youtube.com/watch?v=pMFv6liWK4M)
+      - [Subspaces and span](https://www.youtube.com/watch?v=tM4TDL9Hj8U)
+      - [Orthogonality and orthonormality](https://www.youtube.com/watch?v=6nqMegdbxik)
+    - [Basis of a subspace](https://www.khanacademy.org/math/linear-algebra)
+    - [Unit vectors](https://www.youtube.com/watch?v=jCkhbKFZgLk)
+    - Vector dot and cross products -The dot product (or scalar product) of two vectors is a way of multiplying them to get a scalar (a single number).The cross product (or vector product) of two vectors is another way of multiplying them, but unlike the dot product, the result is a vector, not a scalar. The cross product vector is perpendicular to the plane formed by the two original vectors.  
+      - [Vector dot product](https://www.youtube.com/watch?v=0iNrGpwZwog)
+      - [Vector cross product](https://www.youtube.com/watch?v=gPnWm-IXoAY)
+    - [Cauchy-Schwarz inequality](https://www.youtube.com/watch?v=r2PogGDl8_U)
+    - [Vector triangle inequality](https://www.youtube.com/watch?v=PsNidCBr5II)
+    - [Angle between vectors](https://www.youtube.com/watch?v=dYPRYO8QhxU)
+    - Null space, Column space and dimension of a column space
+      - [3blue1brown inverse matrices, null space and column space](https://www.youtube.com/watch?v=uQhTuRlWMxw) 
+      - [Null space](https://www.youtube.com/watch?v=jCwRV1QL_Xs)
+      - [Column space](https://www.youtube.com/watch?v=st6D5OdFV9M)
   - More linear algebra concepts
-    - Different understanding of functions
-    - Vector transformations
-    - Linear transformations 
-      - Image of a subset under a transformation
-      - Image of a transformation
-      - Preimage of a set
-      - Sums and scalar multiples of linear transformations
-      - Linear transformation examples
-    - Projections
-    - Matrix product 
-      - Matrix product associativity
-      - Matrix product distributivity
-    - Inverse of a function
-    - Finding inverse function
-    - Showing that inverse are linear
-    - Method for determining matrix inverses
-    - Determinants
-      - 3*3 determinant
-      - n*n determinant
-      - duplicate row determinant
-      - Transpose of a matrix
-      - Determinant of transpose
-    - Orthogonal complement 
-    - rank of a matrix and transpose
-    - dim of a matrix and orthogonal complement
-    - Change of basis
-    - The gram-schmidt process
-    - Eigen values and eigenvectors
-    - Diagonalization of a matrix
-    - Singular value decomposition
-    - Tensors and tensor operations
-- Optimization theory course
+    - [Different understanding of functions](https://www.youtube.com/watch?v=BQMyeQOLvpg)
+    - Vector transformations - 
+    - Linear transformations - Linear transformations are mappings between vector spaces that preserve the operations of vector addition and scalar multiplication. Essentially, they transform vectors in one space to vectors in another space while maintaining the structure of the vector space 
+      - [3blue1brown linear transformations](https://www.youtube.com/watch?v=kYB8IZa5AuE) 
+      - [Image and kernel](https://www.youtube.com/watch?v=vyYrvhbDhW4)
+      - [Linear transformation in vector spaces](https://www.youtube.com/watch?v=is1cg5yhdds)
+      - [Linear transformation examples](https://www.youtube.com/watch?v=qkfODKmZ-x4)
+    - [Projections](https://www.youtube.com/watch?v=27vT-NWuw0M)
+    - [Matrix multiplication as composition](https://www.youtube.com/watch?v=XkY2DOUCWMU) 
+    - [Intro to inverse of a function](https://www.youtube.com/watch?v=-eAzhBZgq28)
+    - [Matrix inverse](https://www.youtube.com/watch?v=kWorj5BBy9k)
+    - Determinants -Determinants are a property of square matrices, providing a scalar value that encapsulates certain characteristics of the matrix. The determinant can be interpreted as a scaling factor for the transformation described by the matrix. 
+      - [3blue1brown Understanding determinanats](https://www.youtube.com/watch?v=Ip3X9LOh2dk) 
+      - [3*3 determinant](https://www.youtube.com/watch?v=0c7dt2SQfLw)
+      - [n*n determinant](https://www.youtube.com/watch?v=H9BWRYJNIv4)
+      - [duplicate row determinant](https://www.youtube.com/watch?v=gYv8sttBIqs)
+      - [Transpose of a matrix](https://www.youtube.com/watch?v=TZrKrNVhbjI)
+      - [Deeper meaning of a transpose matrix](https://www.youtube.com/watch?v=g4ecBFmvAYU)
+    - [Orthogonal complement](https://www.youtube.com/watch?v=QOTjdgmNqlg) 
+    - [rank of a matrix](https://www.youtube.com/watch?v=cSj82GG6MX4) 
+    - [dim of a matrix](https://www.youtube.com/watch?v=JUgrBkPteTg)
+    - [Change of basis](https://www.youtube.com/watch?v=P2LTAUO1TdA)
+    - [The gram-schmidt process](https://www.youtube.com/watch?v=zHbfZWZJTGc)
+    - [Eigen values and eigenvectors](https://www.youtube.com/watch?v=PFDu9oVAE-g)
+    - [Diagonalization of a matrix](https://www.youtube.com/watch?v=WTLl03D4TNA)
+    - [Tensors explained](https://www.youtube.com/watch?v=L35fFDpwIM4)
+- Optimization theory course - Optimization theory involves finding the best solution from all feasible solutions for a given problem. It's used in various fields like economics, engineering, and computer science to maximize efficiency and minimize costs in different scenarios. 
   - [Course](https://www.youtube.com/watch?v=4_jiFQXPAsw&list=PLdkTDauaUnQpzuOCZyUUZc0lxf4-PXNR5)
-- information theory course
+- information theory course - Information theory deals with the quantification, storage, and communication of information. It's foundational in areas like data compression, cryptography, and telecommunications, focusing on signal processing and data transmission efficiency. 
   - [Course](https://www.youtube.com/watch?v=BCiZc0n6COY&list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6)
-- econometrics course
+- econometrics course -Econometrics applies statistical and mathematical methods to economic data to test hypotheses and forecast future trends. It's essential in economics and finance for analyzing economic relationships and informing economic policy decisions. 
   - [Course](https://www.youtube.com/watch?v=M_5SLG7sUa0&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU)
-- Beyond this roadmap 
-  - (Mathematics for machine learning - Marc Peter Deisenroth)
-  - AI roadmap
-  - Machine learning roadmap
-  - Deep learning roadmap
-- (Math for ml - Marc Peter Deisenroth)
-- Optimization theory
-- information theory
-- econometrics
