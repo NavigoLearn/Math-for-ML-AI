@@ -108,44 +108,55 @@ Math for ML
           - [Vector fields 3blue1brown](https://www.youtube.com/watch?v=rB83DpBJQsE)
         - [Transformations](https://www.youtube.com/watch?v=roRR6A3TozM)
         - Partial derivatives - Partial derivatives are used in multivariable calculus to measure how a function changes as one of its variables changes, holding the others constant. In machine learning, partial derivatives are crucial for gradient calculations in multivariate optimization problems, such as those encountered in training neural networks. They help in understanding the sensitivity of a function's output to changes in each input variable, which is key for fine-tuning model parameters.  
-            - understanding partial derivatives
-            - visualizing partial derivatives
-            - gradient
-            - Multivariable chain rule
-            - Partial derivative of vector valued function
-        - Divergence - https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/divergence-grant-videos/v/divergence-intuition-part-1
-        - Curl 
-        - 3d curls
-        - Laplacian - https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/laplacian/v/laplacian-intuition
-        - Jacobian
-        - Minima and maxima in multivariable functions
-        - Constrained optimization
-        - Line integrals
-        - Line integrals in vector fields
-        - Double integrals
-        - Triple integrals 
-- How neural networks work - at this point ....
+            - [Partial derivatives and gradients](https://www.youtube.com/watch?v=AXH9Xm6Rbfc)
+            - [visualizing partial derivatives]()
+            - [Multivariable chain rule](https://www.youtube.com/watch?v=9yCtWfI_Vjg)
+            - [Partial derivative of vector valued function](https://www.youtube.com/watch?v=c7ByaI3T7Dc)
+        - Divergence and Curl -Divergence and curl are concepts from vector calculus dealing with vector fields. Divergence measures the magnitude of a field's source or sink at a given point, essentially quantifying how much a vector field spreads out or converges. Curl, on the other hand, measures the rotation or swirling strength of a field around a point. In machine learning, understanding divergence and curl can be important for advanced algorithms, especially those involving fluid dynamics, electromagnetism, or other applications where vector fields and their behaviors are relevant. These concepts help in analyzing the properties and behaviors of complex systems modeled in AI and ML.  
+          - [Khan academy module](https://www.youtube.com/watch?v=c7ByaI3T7Dc)
+          - [3d curls](https://www.youtube.com/watch?v=aDNyyTtaJdY)
+        - [Laplacian](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/laplacian/v/laplacian-intuition)
+        - Minima and maxima in multivariable functions -Minima and maxima in multivariable functions refer to points where a function reaches its lowest or highest value, respectively, in a given neighborhood. Finding these points is crucial in optimization problems such as minimizing a loss function in model training or maximizing performance metrics. 
+          - [Multivariable minima and maxima](https://www.youtube.com/watch?v=ux7EQ3ip2DU) 
+          - [Absolute maxima and minima](https://www.youtube.com/watch?v=Hg38kfK5w4E) 
+          - [Multivariable optimization](https://www.youtube.com/watch?v=_Ffcr98c7EE)
+        - Line integrals -Line integrals involve integrating a function along a curve, calculating the sum of values over a path rather than an area. They are useful for measuring the total effect along a trajectory, such as total work done in a force field. In applied mathematics and related fields, line integrals can be used to solve problems involving cumulative effects along a path, which could be relevant in various data analysis and modeling scenarios. 
+          - [Line integrals introduction](https://www.youtube.com/watch?v=_60sKaoRmhU)
+          - [Evaluating line integrals](https://www.youtube.com/watch?v=Tz14rC0XvHI)
+        - Double and triple integrals -Double integrals extend the concept of integration to two-dimensional spaces, allowing for the calculation of volume under a surface or the accumulation of quantities over an area. Triple integrals further extend this to three-dimensional spaces, enabling the computation of quantities within a volume. These integrals are important in fields requiring volumetric analysis and in problems involving spatial dimensions. Understanding these integrals is essential for solving complex problems where integration over multiple dimensions is required. 
+          - [Define double integrals with riemann sums](https://www.youtube.com/watch?v=JXh9AQkKmsw)
+          - [Double and triple integrals](https://www.youtube.com/watch?v=UubU3U2C8WM)
+          - [Double integrals](https://www.youtube.com/watch?v=BJ_0FURo9RE)
+- How neural networks work - At this point you should be able to understand all the internal workings of a basic neural network. Here I left some videos by 3blue1brown explaining exactly that
 	- [Neural networks explained by 3blue1brown](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) 
-- Probabilities
-	- Probability basics explained
-		- Addition of probabilities
-		- Compound probability
-		- Coin flipping probability
-		- Probability of unfair coin
-		- Probability of exactly 2 heads
-	- More on probabilities
-		- Generalizing with binomial coefficients
-		- Dependent probability 
-		- Permutations
-		- Combinations
-		- Conditional probability
-		- Birthday problem
-		- Random variables
-		- Binomial distribution
-		- Expected value
-			- Expected value of binomial distribution
-		- Poisson process
-		- Law of large numbers  
+- Probabilities - Probabilities measure the likelihood of an event occurring and are a fundamental concept in statistics and data analysis. They are essential for interpreting and predicting data patterns, evaluating risks, and making decisions under uncertainty. In data-driven fields, understanding probabilities enables the analysis of outcomes, the assessment of models, and the quantification of uncertainty in predictions and analyses. 
+    - [Khan academy course](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
+    - [Probability and statistics course](https://www.khanacademy.org/math/statistics-probability)
+	- Probability basics explained 
+        - [Probability basics](https://www.youtube.com/watch?v=KzfWUEJjG18)
+		- [Addition of probabilities](https://www.youtube.com/watch?v=QE2uR6Z-NcU) 
+		- [Compound probability](https://www.youtube.com/watch?v=EHU6pVSczb4)
+		- [Coin flipping probability](https://www.youtube.com/watch?v=mkyZ45KQYi4)
+		- [Probability of unfair coin](https://www.youtube.com/watch?v=RI874OSJp1U)
+	- More on probabilities 
+        - Binomial coefficients in probability - Binomial coefficients, represented as "n choose k", are used in probability to calculate the number of ways to choose k successes out of n trials. They are central to the binomial probability distribution, which models the number of successes in a fixed number of independent Bernoulli trials. Understanding binomial coefficients is crucial for calculating probabilities in scenarios where there are two possible outcomes (like success or failure) in each trial and where each outcome has a fixed probability. 
+            - [Binomial coefficient understood intuitively](https://www.youtube.com/watch?v=6YzrVUVO9M0)
+            - [How to evaluate binomial coefficients](https://www.youtube.com/watch?v=EKN51vLKves)
+        - Dependent and independent events -Dependent probability refers to scenarios where the outcome of one event affects the outcome of another. In these cases, the probability of one event depends on the occurrence of the previous event. This concept is crucial for understanding complex probability scenarios, where events are not independent and require conditional probability calculations. It's key in analyzing situations where events or processes are interlinked, influencing each other's outcomes. 
+          - [Dependent and independent events](https://www.youtube.com/watch?v=lWAdPyvm400) 
+          - [Dependent probability](https://www.youtube.com/watch?v=VjLEoo3hIoM)
+		- Permutations and Combinations - Permutations and combinations are two fundamental concepts in probability and combinatorics, dealing with the arrangement of items. 
+          - [Permutations and combinations](https://www.youtube.com/watch?v=XJnIdRXUi7A)
+          - [Theoretical probability, Permutations and combinations](https://www.youtube.com/watch?v=0ZsSRx0o0zE)
+		- Conditional probability - Conditional probability measures the likelihood of an event occurring, given that another event has already occurred. It's represented as P(A|B), the probability of event A occurring given that B has happened. This concept is essential in situations where the occurrence of one event affects the likelihood of another. For example, if you have a deck of cards and you know that a card drawn is red, the probability of it being a heart is different (and higher) than if you had no information about the card's color. Understanding conditional probability is key for analyzing scenarios where events are interrelated. 
+          - [Conditional probability clearly explained](https://www.youtube.com/watch?v=_IgyaD7vOOA)
+          - [Intro to conditional probability](https://www.youtube.com/watch?v=ibINrxJLvlM)
+		- [Birthday problem](https://www.youtube.com/watch?v=9G0w61pZPig)
+		- [Random variables](https://www.youtube.com/watch?v=3v9w79NhsfI)
+		- [Binomial distribution](https://www.youtube.com/watch?v=8idr1WZ1A7Q)
+		- [Expected value](https://www.youtube.com/watch?v=KLs_7b7SKi4)
+        - [Types of distributions](https://www.youtube.com/watch?v=CfZa1daLjwo&list=PLaFfQroTgZnzbfK-Rie19FdV6diehETQy)
+		- [Law of large numbers](https://www.youtube.com/watch?v=VpuN8vCQ--M)  
 - Statistics
     - The average
     - Population and sample mean
